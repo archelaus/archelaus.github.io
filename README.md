@@ -1,23 +1,24 @@
-# Simple Portfolio
+## Simple Portfolio
 
+### Introduction
 Plain HTML-CSS Responsive Portfolio
 
-## Features
+### Features
 - [X] Single page
 - [X] Good looking design
 - [X] Easy to edit
 - [X] Easy to deploy
 
-## Getting started
+### Getting started
 
-### Clone this repo
+#### Clone this repo
 `git clone https://github.com/archelaus/simple-portfolio`
 
-### Make your edits
+#### Make your edits
 - Edit [index.html](https://github.com/archelaus/simple-portfolio/tree/master/index.html) file according to your preference.
 - Change or edit links according to you.
 
-### Push edited code to GitHub
+#### Push edited code to GitHub
 ```
 git add .
 git commit -m "Type Your Message"
