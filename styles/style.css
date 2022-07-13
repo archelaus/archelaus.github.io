@@ -1,0 +1,120 @@
+/* ***************** */
+/* HERO SECTION */
+/* ***************** */
+
+body {
+	background-image: linear-gradient(
+		to left,
+		rgba(0, 0, 128, 1),
+		rgba(0, 0, 26, 1)
+	);
+}
+
+.section-hero {
+	width: 100%;
+	height: 100%;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-text-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2.4rem;
+	color: #ccccff;
+}
+
+.heading-primary {
+	font-size: 4.4rem;
+	color: #fff;
+}
+
+.heading-tertiary {
+	color: #fff;
+	font-size: 2.4rem;
+}
+
+.heading-tertiary a {
+	transition: all 0.4s;
+}
+
+.heading-tertiary a:link,
+.heading-tertiary a:visited {
+	color: #ccccff;
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+}
+
+.heading-tertiary a:hover,
+.heading-tertiary a:active {
+	/* border-bottom: 1px solid currentColor; */
+	/* box-shadow: inset 0 0 0 3px currentColor; */
+	border-bottom: 1px solid transparent;
+}
+
+.social-links {
+	list-style: none;
+	display: flex;
+	gap: 2.4rem;
+}
+
+.social-icon {
+	width: 3.6rem;
+	height: 3.6rem;
+	fill: #ccccff;
+	transition: all 0.4s;
+}
+
+.mail-icon:hover {
+	fill: #fff;
+}
+
+.twitter-icon:hover {
+	fill: #1da1f2;
+}
+
+.notion-icon:hover {
+	fill: #fff;
+}
+
+.linkedin-icon:hover {
+	fill: #00a0dc;
+}
+
+.github-icon:hover {
+	fill: #fff;
+}
+
+.youtube-icon:hover {
+	fill: #ff0000;
+}
+
+.spotify-icon:hover {
+	fill: #1db954;
+}
+
+.hero-img-box {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar {
+	/* background-color: rgba(255, 255, 255, 0.05); */
+	border-radius: 2.5rem;
+	width: 55rem;
+	height: 55rem;
+	transition: all 0.3s;
+}
+
+.avatar:hover {
+	transform: translateY(-1.2rem);
+	/* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
+}
