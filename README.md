@@ -15,7 +15,7 @@
 - Edit [index.html](https://github.com/archelaus/simple-portfolio/tree/master/index.html) file according to your preference.
 - Change or edit links according to you.
 
-### Push edited code on GitHub
+### Push edited code to GitHub
 ```
 git add .
 git commit -m "Type Your Message"
